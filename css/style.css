@@ -238,3 +238,70 @@ input[type="radio"]
     width: 350px;
     height: 300px;
 }
+/* Design contact */
+#contact
+{
+    background-image: url('../ASSETS/Accueil/Pantherhome7.png');
+    height: 900px;
+    padding: 10px;
+    font-family: 'Cantarell';
+}
+.aide-contact
+{
+    background-color: #cfcccc;
+    color: var(--dark-blue);
+    border-radius: 150px;
+    text-align: center;
+    margin-top: 20%;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+   opacity: 0.7;
+}
+
+input[type=Email],
+input[type=Nom] 
+{
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: transparent;
+    border-radius: 30px;
+    border-color: var(--purple-color);
+    border: 1px solid;
+   
+}
+input[type=Email]:focus,
+input[type=Nom]:focus 
+{
+    background-color: transparent;
+    outline: none;
+    border-radius: 30px;
+    border-color: var(--purple-color);
+    border: 1px solid;
+
+}
+.registerbtn 
+{
+    background-color: var(--pink-color);
+    color: black;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border-radius: 38px;
+    cursor: pointer;
+    width: 174px;
+    height: 54px;
+    opacity: 0.9;
+    border: none;
+}
+
+.registerbtn:hover 
+{
+    opacity: 1;
+}
+.petit
+{
+    height: 170px;
+}
