@@ -112,3 +112,42 @@ img.panther
 {
     text-decoration: underline;
 }
+/* Acceuil */
+.container-special
+{
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.kill img,
+.okyo img
+{
+    height: 250px;
+}
+
+.pkill,
+.pokyo
+{
+    padding: 15px;
+}
+.cousin
+{
+    position: relative;
+    bottom: 30px;
+        padding-left: 30px;
+   
+}
+.cousin img
+{
+height: 320px;
+}
+/* Design personnages */
+.personnages
+{
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    flex-wrap: nowrap;
+    background-color: var(--blue-color);
+    margin-bottom: 5%;
+    text-align: justify;
+}
