@@ -515,3 +515,78 @@ h3
 {
     width: 100%;
 }
+/* Page d'Enigme */
+img.dora
+{
+    height: 500px;
+   
+}
+.dorahead
+{
+    display: flex;
+    justify-content: space-between;
+}
+.doraright
+{
+    display: grid;
+    margin-top: 50px;
+}
+.doradescription
+{
+    background-image: url(../ASSETS/Enigme/Pantherenigme2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.doraright h1
+{
+    font-family: 'BEYNO';
+    font-size: 32px;
+    color: var(--pink-color);
+}
+.doradescription p
+{
+    padding: 90px;
+}
+.citation p
+{
+    font-family: 'Wakanda Forever';
+    font-size: 40px;
+    margin-top: 50px;
+    color: var(--pink-color);
+    
+}
+.dora-citation p span
+{
+    font-family: 'Wakanda Forever';
+
+}
+.dora-citation
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.reponse
+{
+    border-radius: 20px;
+    border: 2px solid var(--pink-color);
+    padding: 10px;
+    margin: 20px;
+}
+.valide
+{
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin-left: 160px;
+    margin-bottom: 100px;
+    font-size: 10px;
+    background-color: var(--grandiant-pink);
+}
+.valide:hover
+{
+    box-shadow: 0 0 20px #F2CEF2;
+}
