@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 @import url('https: //fontstruct.com/fontstructions/show/1518536/panthera-1');
 @font-face
-
 {
     font-family: 'BEYNO';
     src: url(../ASSETS/fonts/BEYNO.ttf);
@@ -22,6 +21,7 @@
     font-family: 'Cantarell';
     src: url(../ASSETS/fonts/Cantarell-Regular.ttf);
 }
+
 /* Les couleurs */
 :root
 {
@@ -33,6 +33,8 @@
     --blue-color: #07338C;
     --dark-blue: #021740;
 }
+
+* 
 {
     margin: 0;
     padding: 0;
@@ -50,6 +52,7 @@ body
     width: 80%;
     margin: 0 auto;
 }
+
 /* Design en haut */
 nav
 {
@@ -85,6 +88,8 @@ nav a.active
 {
     color: var(--purple-color);
 }
+
+
 /* Design black panther */
 .black-panther
 {
@@ -112,6 +117,7 @@ img.panther
 {
     text-decoration: underline;
 }
+
 /* Acceuil */
 .container-special
 {
@@ -305,7 +311,8 @@ input[type=Nom]:focus
 {
     height: 170px;
 }
-* Design footer */
+
+/* Design footer */
 footer
 {
     background-image: url(../ASSETS/Allpages/back_footer.png);
@@ -428,6 +435,8 @@ li
         font-family: 'Cantarell';
         font-size: 22px;
 }
+
+
 /* Les polices */
 .titre
 {
@@ -453,6 +462,7 @@ h3
     color: var(--grey-color);
     margin-top: 20px;
 }
+
 /* CSS du page Wakanda */
 .wakanda
 {
@@ -515,6 +525,7 @@ h3
 {
     width: 100%;
 }
+
 /* Page d'Enigme */
 img.dora
 {
