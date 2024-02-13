@@ -33,3 +33,55 @@
     --blue-color: #07338C;
     --dark-blue: #021740;
 }
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url('../ASSETS/Allpages/arrière_plan.png');
+    color: var(--white-color);
+    background: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64,
+                    0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);
+}
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+}
+/* Design en haut */
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul
+{
+    display: flex;
+}
+li.ft
+{
+    padding: 20px;
+    list-style-type: none;
+    color: var(--purple-color);
+    text-decoration: none;
+}
+li.ft:hover 
+{
+    border-bottom-color: var(--white-color);
+}
+nav a.active 
+{
+    color: var(--purple-color);
+    border-bottom-color: var(--purple-color);
+}
+.marvel
+{
+    margin: 10px;
+}
+.marvel2 a img:hover
+{
+    color: var(--purple-color);
+}
