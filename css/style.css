@@ -85,3 +85,30 @@ nav a.active
 {
     color: var(--purple-color);
 }
+/* Design black panther */
+.black-panther
+{
+    display: flex;
+    margin-top: 40px;
+}
+img.panther
+{
+    width: 120%;
+    height: 100%;
+}
+.description
+{
+    width: 80%;
+    margin-top: 15%;
+
+}
+.suite
+{
+    border: none;
+    background-color: transparent;
+    color: var(--white-color);
+}
+.suite:hover
+{
+    text-decoration: underline;
+}
