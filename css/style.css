@@ -428,3 +428,28 @@ li
         font-family: 'Cantarell';
         font-size: 22px;
 }
+/* Les polices */
+.titre
+{
+    font-family: 'Panthera';
+    font-size: 50px;
+    color: var(--grey-color);}
+h2
+{
+    font-family: 'BEYNO';
+    font-size: 32px;
+    color: var(--grey-color);
+}
+p
+{
+    font-family: 'Cantarell';
+    font-size: 12px;
+    margin-top: 20px;
+}
+h3
+{
+    font-family: 'BEYNO';
+    font-size: 20px;
+    color: var(--grey-color);
+    margin-top: 20px;
+}
