@@ -453,3 +453,65 @@ h3
     color: var(--grey-color);
     margin-top: 20px;
 }
+/* CSS du page Wakanda */
+.wakanda
+{
+    background-image: url(../ASSETS/Wakanda/Pantherwakanda1.png);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.parties
+{
+    display: flex;
+    background-image: url(../ASSETS/Wakanda/Pantherwakanda2.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    margin-top: 20px;
+    text-align: justify;
+    justify-content: space-between;
+}
+.forever
+{
+    margin-top: 300px;
+    float: left;
+    padding-right: 450px;
+}
+.ptitre
+{
+    font-family: 'BEYNO';
+    font-size: 40px;
+    color: var(--grey-color);
+}
+.Wtitre
+{
+    font-family: 'Wakanda Forever';
+    margin-top: 10px;
+    font-size: 28px;
+}
+.liens-video
+{
+    background-color: var(--purple-color);
+    height: 230px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.soldat
+{
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.wakagauche
+{
+    width: 100%;
+}
+.wakadroite
+{
+    width: 100%;
+}
