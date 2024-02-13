@@ -151,3 +151,90 @@ height: 320px;
     margin-bottom: 5%;
     text-align: justify;
 }
+
+/* Design naissance prince */
+.naissance-prince
+{
+    display: flex;
+    justify-content: space-between;
+}
+.textes
+{
+
+    text-align: justify;
+    padding-left: 20px;
+    width: 750px;
+}
+.textes h3
+{
+    padding-top: 50px;
+}
+.renseignement
+{
+    margin: 50px;
+    text-align: justify;
+    padding-left: 20px;
+    width: 250px;
+}
+img.black
+{
+    width: 250px;
+    height: 350px;
+    margin: 0 30px 0 30px;
+}
+.panther1
+{
+    position: absolute;
+}
+.identite
+{
+    background-color: var(--white-color);
+    border-radius: 20px;
+    color: var(--dark-blue);
+    padding-top: 200px;
+    padding-bottom: 30px;
+    width: 310px;
+    height: 550px;
+    margin-top: 70%;
+}
+.btn
+{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    color: var(--white-color);
+    margin: 0 30px 0 30px;
+}
+input[type="radio"] 
+{
+    opacity: 0;
+}
+.btn label
+{
+    cursor: pointer;
+    border-radius: 5px ;
+    background-color: var(--purple-color);
+    padding: 10px;
+    font-size: 8px;
+}
+.Tcl
+{
+    text-align: center;
+    font-family: 'Cantarell';
+}
+.carte
+{
+    margin: 0 30px 0 30px;
+    font-size: 10px;
+    
+}
+.rond
+{
+    margin-top: 60px;
+   
+}
+.rondi
+{
+    width: 350px;
+    height: 300px;
+}
