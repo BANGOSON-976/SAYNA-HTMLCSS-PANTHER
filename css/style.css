@@ -1,3 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Rajdhani:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 @import url('https: //fontstruct.com/fontstructions/show/1518536/panthera-1');
 @font-face
+
+{
+    font-family: 'BEYNO';
+    src: url(../ASSETS/fonts/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: 'Panthera';
+    src: url(../ASSETS/fonts/PantheraRegular-MVZ9J.ttf);
+}
+
+@font-face {
+    font-family: 'Wakanda Forever';
+    src: url(../ASSETS/fonts/WakandaForever-Regular.ttf);
+}
+
+@font-face
+{
+    font-family: 'Cantarell';
+    src: url(../ASSETS/fonts/Cantarell-Regular.ttf);
+}
+/* Les couleurs */
+:root
+{
+    --white-color: #FFFFFF;
+    --grandiant-pink: #F2CFF2;
+    --grey-color: #9E91B7;
+    --pink-color: #DF99F2;
+    --purple-color: #3D2DA6;
+    --blue-color: #07338C;
+    --dark-blue: #021740;
+}
